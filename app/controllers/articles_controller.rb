@@ -3,8 +3,8 @@ class ArticlesController < ApplicationController
 	    api_key = "fcc3663396bd43174b9b70dd03e4b60a-us9"
       list_id = "5f567b8fcb"
       double_optin = true
-      # interests = cta.options['mailchimp_add_to_list']['interests']
-      email_address = get_request_parameter(request_params, 'email') || get_request_parameter(request_params, 'EMAIL')
+      interests = "interest"
+      email_address = "chakshu@proprofs.com"
 
       raise Error, 'Unknown api_key or list_id' unless api_key && list_id
 
