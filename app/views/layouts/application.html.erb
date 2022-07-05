@@ -10,7 +10,9 @@
   </head>
 
   <body>
-    <!-- Qualaroo for samplestage.herokuapp.com -->
+    <%= yield %>
+  </body>
+  <!-- Qualaroo for samplestage.herokuapp.com -->
     <!-- Paste this code right after the <body> tag on every page of your site. -->
     <script type="text/javascript">
       var _kiq = _kiq || [];
@@ -21,6 +23,4 @@
         }, 1);
       })();
     </script>
-    <%= yield %>
-  </body>
 </html>
