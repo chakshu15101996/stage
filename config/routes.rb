@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root 'articles#index'
 
   get '/articles' => 'articles#index'
+  get '/books' => 'books#index'
 end
